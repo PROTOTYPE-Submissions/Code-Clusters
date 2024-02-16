@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpapercave.com/wp/wp9764093.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.options-container {
+    text-align: center;
+    background-color: #fdfdff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px;
+}
+
+select {
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn {
+    display: inline-block;
+
+    color: orange;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.btn button{
+    background-color:orange;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+}
+
+.btn button a{
+    text-decoration: none;
+    color: white;
+
+}

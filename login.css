@@ -1,0 +1,112 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-container,
+.signup-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.login-container h1,
+.signup-container h1 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 2rem;
+}
+
+.login-container form,
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container input,
+.signup-container input {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #f7f7f7;
+    transition: background-color 0.3s;
+}
+
+.login-container input:focus,
+.signup-container input:focus {
+    background-color: #fff;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container button,
+.signup-container button {
+    background-color: #ff9900;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover,
+.signup-container button:hover {
+    background-color: #ffbf40;
+}
+
+.login-container p,
+.signup-container p {
+    margin-top: 1rem;
+    color: #777;
+    font-size: 0.9rem; 
+}
+
+.login-container a,
+.signup-container a {
+    color: #ff9900b2;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.login-container a:hover,
+.signup-container a:hover {
+    color: #ffbf40;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* Back to Home Page Button Styles */
+.back-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.arrow {
+    margin-right: 5px;
+}
